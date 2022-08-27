@@ -1,0 +1,293 @@
+
+body{
+    background-color: #0b0c0f;
+}
+.logo{
+    z-index: 1;
+
+}
+*{margin: 0;padding: 0;font-family: "poppins", sans-serif;box-sizing: border-box;}
+h2 {
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    margin: 1em 0 2em 0;
+    text-transform: uppercase;
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+    padding: 0 8%;
+    background: #0b0c0f;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    padding: 28px 0;
+
+}
+.nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+    position: relative;
+}
+.nav-links li a::after{
+    content: '';
+    background: #ec2929;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+.nav-links li a:hover::after{
+    width: 100%;
+
+}
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    max-width: 900px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+.content h1{
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.content form{
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    display:  flex;
+}
+.content form input{
+
+    flex:  1;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 18px;
+}
+.content form button{
+    background: #ec2929;
+    color: #fff	;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    zoom: 0.5;
+    z-index: 0;
+    border-radius: 0000px 0000px 4000px 4000px;
+    opacity: 50%;
+}
+.cracks{
+    position: absolute;
+    left: 50%;
+    top: 170%;
+    width: 90%;
+    max-width: 900px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+.cracks h1{
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.cracks form{
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    display:  flex;
+}
+
+/*ntm */
+
+
+
+h3, h4, h5, h6 {
+    color: #ffffff;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+
+
+p {
+    margin: 0 0 3em 0;
+    font-size: 15px;
+}
+
+.card1 {
+    transform: translate(55%);
+}
+
+.card2 {
+    transform: translate(-55%);
+    margin-top: -17.5em;
+}
+
+.card3 {
+    transform: translate(-55%);
+    margin-top: -17.5em;
+}
+
+.card4 {
+    transform: translate(55%);
+    margin-top: -17.5em;
+}
+
+.card-img img {
+    display: inline-block;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 1.75em;
+    margin-top: -1.75em;
+    width: calc(50%);
+    height: calc(11.5em + 3.5em);
+
+}
+
+widget {
+    width: 100%;
+	height: 100%;
+    background-color: var(--main-header-background);
+    margin-top: 5em;
+}
+
+.proutdesex {
+    display: inline-block;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 1.75em;
+    margin-top: -1.75em;
+    width: calc(50%);
+    height: calc(11.5em + 3.5em);
+}
+
+
+footer {
+	width: 100%;
+	height: 100%;
+    background-color: var(--main-header-background);
+    margin-top: 5em;
+}
+
+.copyright {
+	color: #fff;
+	font-size: 1.2rem;
+	line-height: 40px;
+	text-align: center;
+}
+
+.copyright a{
+	color: #fff;
+	font-size: 1rem;
+	letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.copyright a:hover{
+	color: var(--main-decor-color);
+}
+
+.container{
+    background-color: #0b0c0f;
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.suggestion{
+    letter-spacing: 1px;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #fff;
+    background-color: #0b0c0f;
+    position: relative;
+    text-align:left;
+    margin: 0px 0px 10px 30px;
+    
+    
+    
+}
+
+.suggestion:hover{
+    background-color: #ec2929;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0px 5px 5px 15px;
+    
+    
+}
+
+/*test*/
+
+fra{
+    transform: translate(80%);
+}
+
+
+nav ul li ul { display:none; } /* Rend le menu dÃ©roulant cachÃ© par dÃ©faut */
+
+nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+
+z-index:99999;
+display:list-item !important;
+position:absolute;
+margin-top:5px;
+margin-left:-10px;
+background-color: #111111;
+border-radius: 10px;
+margin-right: 800px;
+}
+
+zizi {
+    font-size: 22px;
+    color: #fff;
+    
+    
+}
+
+
+
+
+
+
+
